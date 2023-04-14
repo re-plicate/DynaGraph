@@ -1,0 +1,9 @@
+DATA_NAME='PEMS04', DEVICE='cuda:0', SE_file='./data/SE(PeMS).txt', batch_size=32, decay_epoch=8, drop=0, embed_size=64, gamma=0.6, heads=16, learning_rate=0.001, log_file='./data/PEMS04_log', max_epoch=1, model_file='./result/DYG_PEMS04_BEST.pkl', num_day=3, num_his=12, num_layers=2, num_pred=12, num_week=3, patience=10, shuffle=True, test_ratio=0.2, time_slot=5, traffic_file='./data/PEMS04.h5', train_ratio=0.7, val_ratio=0.1
+loading data...
+trainX: (torch.Size([11871, 12, 307]), torch.Size([11871, 3, 307]), torch.Size([11871, 3, 307]))		 trainY: torch.Size([11871, 12, 307])
+valX:   (torch.Size([1677, 12, 307]), torch.Size([1677, 3, 307]), torch.Size([1677, 3, 307]))		valY:   torch.Size([1677, 12, 307])
+testX:   (torch.Size([3375, 12, 307]), torch.Size([3375, 3, 307]), torch.Size([3375, 3, 307]))		testY:   torch.Size([11871, 12, 307])
+mean:   208.9374		std:   157.3300
+data loaded!
+compiling model...
+trainable parameters: 331,121

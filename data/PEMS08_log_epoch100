@@ -1,0 +1,148 @@
+DATA_NAME='PEMS08', DEVICE='cuda:0', SE_file='./data/SE(PeMS).txt', batch_size=16, decay_epoch=8, drop=0, embed_size=64, gamma=0.6, heads=16, learning_rate=0.001, log_file='./data/PEMS08_log', max_epoch=100, model_file='./result/DYG_PEMS08_BEST.pkl', num_day=3, num_his=12, num_layers=2, num_pred=12, num_week=3, patience=10, shuffle=True, test_ratio=0.2, time_slot=5, traffic_file='./data/PEMS08.h5', train_ratio=0.7, val_ratio=0.1
+loading data...
+trainX: (torch.Size([12476, 12, 170]), torch.Size([12476, 3, 170]), torch.Size([12476, 3, 170]))		 trainY: torch.Size([12476, 12, 170])
+valX:   (torch.Size([1763, 12, 170]), torch.Size([1763, 3, 170]), torch.Size([1763, 3, 170]))		valY:   torch.Size([1763, 12, 170])
+testX:   (torch.Size([3548, 12, 170]), torch.Size([3548, 3, 170]), torch.Size([3548, 3, 170]))		testY:   torch.Size([12476, 12, 170])
+mean:   230.2200		std:   145.9074
+data loaded!
+compiling model...
+trainable parameters: 313,585
+2023-04-14 14:45:03 | epoch: 0001/100, training time: 135.3s, inference time: 5.3s
+train loss: 25.3423, test_loss: 18.7774
+test loss decrease from inf to 18.7774, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 14:47:22 | epoch: 0002/100, training time: 133.4s, inference time: 5.2s
+train loss: 18.8870, test_loss: 17.3595
+test loss decrease from 18.7774 to 17.3595, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 14:49:41 | epoch: 0003/100, training time: 134.2s, inference time: 5.3s
+train loss: 17.7813, test_loss: 19.0977
+2023-04-14 14:52:00 | epoch: 0004/100, training time: 133.9s, inference time: 5.2s
+train loss: 17.2123, test_loss: 16.3032
+test loss decrease from 17.3595 to 16.3032, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 14:54:19 | epoch: 0005/100, training time: 133.8s, inference time: 5.2s
+train loss: 16.5539, test_loss: 15.9614
+test loss decrease from 16.3032 to 15.9614, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 14:56:39 | epoch: 0006/100, training time: 134.3s, inference time: 5.3s
+train loss: 16.1751, test_loss: 17.5494
+2023-04-14 14:58:58 | epoch: 0007/100, training time: 134.0s, inference time: 5.2s
+train loss: 15.6702, test_loss: 15.6142
+test loss decrease from 15.9614 to 15.6142, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:01:17 | epoch: 0008/100, training time: 133.9s, inference time: 5.3s
+train loss: 15.3824, test_loss: 14.8354
+test loss decrease from 15.6142 to 14.8354, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:03:36 | epoch: 0009/100, training time: 134.0s, inference time: 5.2s
+train loss: 14.6882, test_loss: 14.6565
+test loss decrease from 14.8354 to 14.6565, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:05:55 | epoch: 0010/100, training time: 133.8s, inference time: 5.2s
+train loss: 14.5606, test_loss: 14.7911
+2023-04-14 15:08:15 | epoch: 0011/100, training time: 134.0s, inference time: 5.2s
+train loss: 14.4436, test_loss: 14.2324
+test loss decrease from 14.6565 to 14.2324, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:10:34 | epoch: 0012/100, training time: 133.9s, inference time: 5.2s
+train loss: 14.3165, test_loss: 14.4557
+2023-04-14 15:12:53 | epoch: 0013/100, training time: 133.8s, inference time: 5.3s
+train loss: 14.1815, test_loss: 14.2321
+test loss decrease from 14.2324 to 14.2321, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:15:12 | epoch: 0014/100, training time: 133.9s, inference time: 5.2s
+train loss: 14.0926, test_loss: 14.2553
+2023-04-14 15:17:31 | epoch: 0015/100, training time: 133.5s, inference time: 5.2s
+train loss: 14.0301, test_loss: 14.1579
+test loss decrease from 14.2321 to 14.1579, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:19:50 | epoch: 0016/100, training time: 134.0s, inference time: 5.3s
+train loss: 13.9242, test_loss: 14.0319
+test loss decrease from 14.1579 to 14.0319, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:22:09 | epoch: 0017/100, training time: 133.8s, inference time: 5.2s
+train loss: 13.6676, test_loss: 13.9406
+test loss decrease from 14.0319 to 13.9406, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:24:28 | epoch: 0018/100, training time: 133.7s, inference time: 5.2s
+train loss: 13.6240, test_loss: 13.9598
+2023-04-14 15:26:47 | epoch: 0019/100, training time: 133.5s, inference time: 5.2s
+train loss: 13.5792, test_loss: 14.0809
+2023-04-14 15:29:06 | epoch: 0020/100, training time: 133.8s, inference time: 5.2s
+train loss: 13.5455, test_loss: 13.9471
+2023-04-14 15:31:25 | epoch: 0021/100, training time: 133.7s, inference time: 5.2s
+train loss: 13.5086, test_loss: 13.9662
+2023-04-14 15:33:44 | epoch: 0022/100, training time: 134.0s, inference time: 5.2s
+train loss: 13.4799, test_loss: 13.9849
+2023-04-14 15:36:03 | epoch: 0023/100, training time: 133.7s, inference time: 5.2s
+train loss: 13.4155, test_loss: 13.9415
+2023-04-14 15:38:22 | epoch: 0024/100, training time: 133.9s, inference time: 5.2s
+train loss: 13.3715, test_loss: 13.8745
+test loss decrease from 13.9406 to 13.8745, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:40:40 | epoch: 0025/100, training time: 132.7s, inference time: 5.1s
+train loss: 13.2553, test_loss: 13.9323
+2023-04-14 15:42:57 | epoch: 0026/100, training time: 132.0s, inference time: 5.1s
+train loss: 13.2328, test_loss: 13.8059
+test loss decrease from 13.8745 to 13.8059, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:45:14 | epoch: 0027/100, training time: 132.3s, inference time: 5.1s
+train loss: 13.2156, test_loss: 13.9402
+2023-04-14 15:47:31 | epoch: 0028/100, training time: 131.8s, inference time: 5.2s
+train loss: 13.1950, test_loss: 13.7978
+test loss decrease from 13.8059 to 13.7978, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 15:49:49 | epoch: 0029/100, training time: 132.6s, inference time: 5.1s
+train loss: 13.1709, test_loss: 13.8706
+2023-04-14 15:52:07 | epoch: 0030/100, training time: 132.5s, inference time: 5.1s
+train loss: 13.1504, test_loss: 13.8078
+2023-04-14 15:54:24 | epoch: 0031/100, training time: 131.8s, inference time: 5.3s
+train loss: 13.1288, test_loss: 13.9509
+2023-04-14 15:56:41 | epoch: 0032/100, training time: 132.5s, inference time: 5.1s
+train loss: 13.1122, test_loss: 13.8313
+2023-04-14 15:58:58 | epoch: 0033/100, training time: 131.7s, inference time: 5.1s
+train loss: 13.0447, test_loss: 13.7589
+test loss decrease from 13.7978 to 13.7589, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 16:01:15 | epoch: 0034/100, training time: 131.6s, inference time: 5.1s
+train loss: 13.0363, test_loss: 13.8521
+2023-04-14 16:03:32 | epoch: 0035/100, training time: 131.7s, inference time: 5.1s
+train loss: 13.0282, test_loss: 13.8004
+2023-04-14 16:05:48 | epoch: 0036/100, training time: 131.5s, inference time: 5.1s
+train loss: 13.0157, test_loss: 13.8455
+2023-04-14 16:08:06 | epoch: 0037/100, training time: 132.1s, inference time: 5.1s
+train loss: 13.0049, test_loss: 13.8464
+2023-04-14 16:10:21 | epoch: 0038/100, training time: 130.8s, inference time: 5.1s
+train loss: 12.9952, test_loss: 13.7421
+test loss decrease from 13.7589 to 13.7421, saving model to ./result/DYG_PEMS08_BEST.pkl
+2023-04-14 16:12:39 | epoch: 0039/100, training time: 132.1s, inference time: 5.2s
+train loss: 12.9810, test_loss: 13.8026
+2023-04-14 16:14:56 | epoch: 0040/100, training time: 132.4s, inference time: 5.2s
+train loss: 12.9719, test_loss: 13.7956
+2023-04-14 16:17:14 | epoch: 0041/100, training time: 132.0s, inference time: 5.1s
+train loss: 12.9355, test_loss: 13.7965
+2023-04-14 16:19:31 | epoch: 0042/100, training time: 132.0s, inference time: 5.1s
+train loss: 12.9332, test_loss: 13.7973
+2023-04-14 16:21:47 | epoch: 0043/100, training time: 131.6s, inference time: 5.1s
+train loss: 12.9304, test_loss: 13.7758
+2023-04-14 16:24:04 | epoch: 0044/100, training time: 131.6s, inference time: 5.1s
+train loss: 12.9232, test_loss: 13.7748
+2023-04-14 16:26:21 | epoch: 0045/100, training time: 132.0s, inference time: 5.1s
+train loss: 12.9146, test_loss: 13.7698
+2023-04-14 16:28:38 | epoch: 0046/100, training time: 131.6s, inference time: 5.1s
+train loss: 12.9105, test_loss: 13.7760
+2023-04-14 16:30:55 | epoch: 0047/100, training time: 131.6s, inference time: 5.1s
+train loss: 12.9089, test_loss: 13.7991
+2023-04-14 16:33:12 | epoch: 0048/100, training time: 131.7s, inference time: 5.2s
+train loss: 12.9022, test_loss: 13.7807
+early stop at epoch: 0048
+Training and validation are completed, and model has been stored as ./result/DYG_PEMS08_BEST.pkl
+**** testing model ****
+loading model from ./result/DYG_PEMS08_BEST.pkl
+model restored!
+evaluating...
+testing time: 5.3s
+                MAE		RMSE		MAPE
+train            12.77		22.09		8.39%
+val              14.80		25.53		13.36%
+test             13.80		23.14		9.29%
+performance in each prediction step
+step: 01         12.36		19.78		8.32%
+step: 02         12.64		20.65		8.48%
+step: 03         12.91		21.38		8.64%
+step: 04         13.30		22.18		8.98%
+step: 05         13.45		22.54		9.01%
+step: 06         13.72		23.08		9.20%
+step: 07         14.01		23.63		9.43%
+step: 08         14.19		24.00		9.56%
+step: 09         14.43		24.37		9.70%
+step: 10         14.67		24.71		9.89%
+step: 11         14.86		25.11		10.10%
+step: 12         15.07		25.43		10.24%
+average:         13.80		23.07		9.29%
+total time: 111.0min
