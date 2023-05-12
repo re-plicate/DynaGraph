@@ -35,10 +35,10 @@ def train(model, args, log, loss_criterion, optimizer, scheduler):
             xc, xd, xw, te, y = data  # B T N -> x need: B C N T
             xc, xd, xw = xc.unsqueeze(1).permute(0,1,3,2), xd.unsqueeze(1).permute(0,1,3,2), xw.unsqueeze(1).permute(0,1,3,2)
             optimizer.zero_grad()
-            # print(xw, xd)  # xd xw没有归一化靠
+            # print(xw, xd)  
             pred = model(xc, xd, xw, te)  # 32 12 325 B T N
             pred = pred * std + mean
-            loss_batch = loss_criterion(pred, y)  # 1个小时12个时间片全进行损失计算呀
+            loss_batch = loss_criterion(pred, y)  
             num_train += xc.shape[0]
             train_loss += float(loss_batch) * xc.shape[0]
             # print(xc.shape[0])
@@ -52,48 +52,6 @@ def train(model, args, log, loss_criterion, optimizer, scheduler):
         train_loss /= num_train
         train_total_loss.append(train_loss)
         end_train = time.time()
-
-        # # val start
-        # start_val = time.time()
-        # val_loss = 0
-        # num_val = 0
-        # model.eval()
-        # with torch.no_grad():
-        #     for ind, data in enumerate(val_loader):
-        #         xc, xd, xw, te, y = data  # B T N -> x need: B C N T； te：B 2T 2
-        #         xc, xd, xw = xc.unsqueeze(1).permute(0,1,3,2), xd.unsqueeze(1).permute(0,1,3,2), xw.unsqueeze(1).permute(0,1,3,2)
-        #         optimizer.zero_grad()
-        #         pred = model(xc, xd, xw, te)  # 32 12 325 B T N
-        #         pred = pred * std + mean
-        #         loss_batch = loss_criterion(pred, y)
-        #         val_loss += loss_batch * xc.shape[0]
-        #         num_val += xc.shape[0]
-        #         del xc, xd, xw, y, loss_batch
-        # val_loss /= num_val
-        # val_total_loss.append(val_loss)
-        # end_val = time.time()
-        # log_string(
-        #     log,
-        #     '%s | epoch: %04d/%d, training time: %.1fs, inference time: %.1fs' %
-        #     (datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), epoch + 1,
-        #      args.max_epoch, end_train - start_train, end_val - start_val))
-        # log_string(
-        #     log, f'train loss: {train_loss:.4f}, val_loss: {val_loss:.4f}')
-        # if val_loss <= val_loss_min:
-        #     log_string(
-        #         log,
-        #         f'val loss decrease from {val_loss_min:.4f} to {val_loss:.4f}, saving model to {args.model_file}')
-        #     wait = 0
-        #     val_loss_min = val_loss
-        #     best_model_wts = model.state_dict()
-        #     weight_mark = epoch
-        #     # model.load_state_dict(best_model_wts)
-        #     torch.save(model, 'ST_PEMS_ez{0}_valbest_epoch{1}'.format(args.embed_size, epoch))  #
-        # else:
-        #     wait += 1
-        #     # model.load_state_dict(best_model_wts)  # continue regressing from the known best_weights
-        #     # print('load the weight form the best epoch {0} for training'.format(weight_mark))
-        #     # torch.save(model, 'ST_PEMS_ez{0}_normal_epoch{1}'.format(args.embed_size, epoch))  #
 
 
         '--------------------------------'
@@ -170,7 +128,7 @@ if __name__=='__main__':
     log_string(log, 'compiling model...')
 
     # model initiation
-    adj_w, adj_r = read_adj('data/Adj(PeMS).txt')  # tensor：w是权重0-1，r是连通性0或1
+    adj_w, adj_r = read_adj('data/Adj(PeMS).txt')  
     adj_w, adj_r = adj_w.float(), adj_r.float()
     df = pd.read_hdf('data/pems_correlation_roads.h5')
     data_val = torch.from_numpy(df.values)
