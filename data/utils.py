@@ -37,7 +37,6 @@ def seq2instance(data, num_his, num_pred, args=None):  # num_his = 12; num_pred 
     num_sample = num_step - num_his - num_pred + 1
     x = torch.zeros(num_sample, num_his, dims)
     y = torch.zeros(num_sample, num_pred, dims)
-    # 加上临近星期和日期的数据
     if args:
         xd = torch.zeros(num_sample, args.num_day, dims)  # num, 3, 325
         xw = torch.zeros(num_sample, args.num_week, dims)  # to be continued
