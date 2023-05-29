@@ -8,8 +8,14 @@ This project includes 2 widely used datasets PEMS04 and PEMS08 for reproducing t
 Due to some methods have no open-source code, it is hard to republicat and are marked with the marker *.
 
 *represents the result is not fiiled by now but will be continuously updated
+
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab1.png)
+
+The results show in the Table 1 demonstrate the comparable performance of DynaGraph. DynaGraph outperforms the baselines except for the Detectornet. However, this baseline has no open-source code and we refer the results from the initial paper.
+
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab2.png)
+
+The results in Table 2 compare DynaGraph with all the open-source baselines. It is surprising that DynaGraph achieve SOTA in both two datasets. 
 ## 3.Time cost on TAXIBJ dataset
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig1.png)
 
