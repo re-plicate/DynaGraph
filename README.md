@@ -46,7 +46,8 @@ The results in Table 2 compare DynaGraph with all the open-source baselines. It 
 
 ## 3.Time cost on TAXIBJ dataset
 <center class="half">
-<img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig1.png" width="160"/><img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig2.png" width="160"/><img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig3.png" width="160"/> </center>
+    <img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig1.png" width="160"/><img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig2.png" width="160"/><img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig3.png" width="160"/>
+</center>
 
 Figure 1: One epoch training time results
 
