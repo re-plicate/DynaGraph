@@ -43,13 +43,14 @@ The results show in the Table 1 demonstrate the comparable performance of DynaGr
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab2.png)
 
 The results in Table 2 compare DynaGraph with all the open-source baselines. It is surprising that DynaGraph achieve SOTA in both two datasets. STAWnet shows the closest performance of DynaGraph, which has some similar mechanism with DynaGraph.
+
 ## 3.Time cost on TAXIBJ dataset
-![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig1.png)
+<center class="half">
+<img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig1.png" width="160"/><img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig2.png" width="160"/><img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig3.png" width="160"/> </center>
 
 Figure 1: One epoch training time results
 
-![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig2.png)
-
 Figure 2: Total training time results. We set the bacthsize of each model as 8 and record the time cost for final convergence. We define the final convergence of each model as that the accuracy is no longer improved in the next 10 epochs of learning, then we record the time cost between the training start and the best accuracy emerges as the total training time.
+
 ## 4.Preliminary results of Q-Traffic
 we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic dataset. However, this evaluation needs some time and more computional resource to produce the performance results of DynaGraph or other baselines. Here, we successfully run our model on Q-traffic dataset and what do we need is just time to produce the results. Here we present the recorded results which will be continuously updated.
