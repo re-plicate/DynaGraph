@@ -1,9 +1,12 @@
 # DynaGraph
+
 ## model run
 user could run main.py to easily start the training.
 test.py is for evaluating the DynaGraph.
+
 ## 1.dataset
 This project includes 3 widely used datasets PeMS04, PeMS08 and Q-Traffic for reproducing the results. Regarding the Q-Traffic dataset, it consists of three sub-datasets: query sub-dataset, traffic speed sub-dataset and road network sub-dataset. We conducted experiments on the traffic speed sub-dataset.
+
 ### Traffic Speed Sub-dataset
 This sub-dataset was collected in Beijing, China between April 1, 2017 and May 31, 2017, from the [Baidu Map](https://map.baidu.com). This sub-dataset contains 15,073 road segments covering approximately 738.91 km. Figure 1 shows the spatial distribution of these road segments, respectively.
 <div align=center>
