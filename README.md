@@ -40,18 +40,14 @@ After chosen the perform better baselines, we will added them in our scalability
 
 The results shown in Table 1 demonstrate the comparable performance of DynaGraph. DynaGraph outperforms the baselines except for the Detectornet. However, this baseline has no open-source code and we refer to the results from the initial paper. Due to the GMSDR, ST-GDN, and DGCRN having no easily open-source code to implement, to fairness, we temporarily fill in no results on these blanks.
 
-Worth mentioned, LSTF-LINEAR is a linear model proposed by [AAAI2023]Are Transformers Effective for Time Series Forecasting. We pose it to verify the hypothesis that "former structures may not be as good as linear layers in long-term time series forecasting task" mentioned in the paper. So far, this hypothesis does not hold for the tasks mentioned in our paper.
-
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab2.png)
 
 The results in Table 2 compare DynaGraph with all the open-source baselines. We average the metrics of the 12 steps prediction results, what method is used by most of the refereed papers, to form this table. It is surprising that DynaGraph achieves SOTA in both two datasets. STAWnet shows the closest performance of DynaGraph, which has some similar mechanisms to DynaGraph.
 
 ## 3.Time cost on TAXIBJ dataset
-<center class="half">
-    <img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig1.png" width="160"/><img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig2.png" width="160"/><img src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig3.png" width="160"/>
-</center>
+![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig123.png)
 
-Figure 1: One epoch training time results
+<p align="center">Figure 1: One epoch training time results</p>
 
 Figure 2: Total training time results. We set the bacthsize of each model as 8 and record the time cost for final convergence. We define the final convergence of each model as that the accuracy is no longer improved in the next 10 epochs of learning, then we record the time cost between the training start and the best accuracy emerges as the total training time.
 
