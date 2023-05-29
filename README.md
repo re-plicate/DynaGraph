@@ -7,3 +7,5 @@ This project includes 2 widely used datasets PEMS04 and PEMS08 for reproducing t
 ## experiment results
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab1.png)
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab2.png)
+![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig1.png)
+![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig2.png)
