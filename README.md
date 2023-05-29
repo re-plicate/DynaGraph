@@ -5,7 +5,7 @@ user could run main.py to easily start the training.
 test.py is for evaluating the DynaGraph.
 
 ## 1.dataset
-This project includes 3 widely used datasets PeMS04, PeMS08 and Q-Traffic for reproducing the results. Regarding the Q-Traffic dataset, it consists of three sub-datasets: query sub-dataset, traffic speed sub-dataset and road network sub-dataset. We conducted experiments on the traffic speed sub-dataset.
+This project includes 3 widely used datasets PeMS04, PeMS08, and a new added large-size dataset Q-Traffic for reproducing the results. Regarding the Q-Traffic dataset, it consists of three sub-datasets: query sub-dataset, traffic speed sub-dataset and road network sub-dataset. We conducted experiments on the traffic speed sub-dataset.
 
 ### Traffic Speed Sub-dataset
 This sub-dataset was collected in Beijing, China between April 1, 2017 and May 31, 2017, from the [Baidu Map](https://map.baidu.com). This sub-dataset contains 15,073 road segments covering approximately 738.91 km. Figure 1 shows the spatial distribution of these road segments, respectively.
@@ -29,10 +29,12 @@ There are some traffic speed samples as follows:
 ..., ..., ...  
 ```
 
-## 2.Comparison with the newly referred algorithm
+## 2.Preliminary Comparison with the newly referred algorithms
 Due to some methods have no open-source code, it is hard to republicat and are marked with the marker *.
 
 *represents the result is not fiiled by now but will be continuously updated
+
+After chosen the perform better baselines, we will added them in our scalability evaluation of the TAXIBJ dataset and newly added larger dataset.
 
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab1.png)
 
