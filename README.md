@@ -10,7 +10,7 @@ This sub-dataset was collected in Beijing, China between April 1, 2017 and May 3
 <img src="https://github.com/JingqingZ/BaiduTraffic/blob/master/fig/beijing_road_seg_compressed.png"/>
 </div>
 <p align="center">Figure 1. Spatial distribution of the road segments in Beijing</p>
-They are all in the 6th ring road (bounded by the lon/lat box of <116.10, 39.69, 116.71, 40.18>), which is the most crowded area of Beijing. The traffic speed of each road segment is recorded per minute. To make the traffic speed predictable, for each road segment, original authors use simple [moving average](https://en.wikipedia.org/wiki/Moving_average) with a 15-minute time window to smooth the traffic speed sub-dataset and sample the traffic speed per 15 minutes. Thus, there are totally 5856 (61×24×4) time steps, and each record is represented as road_segment_id, time_stamp ([0, 5856)) and traffic_speed (km/h).
+They are all in the 6th ring road (bounded by the lon/lat box of <116.10, 39.69, 116.71, 40.18>), which is the most crowded area of Beijing. The traffic speed of each road segment is recorded per minute. To make the traffic speed predictable, for each road segment, original authors use simple [moving average](https://en.wikipedia.org/wiki/Moving_average) with a 15-minute time window to smooth the traffic speed sub-dataset and sample the traffic speed per 15 minutes. Thus, there are totally 5856 (61×24×4) time steps, and each record is represented as road_segment_id, time_stamp (\[0, 5856)) and traffic_speed (km/h).
 
 ## 2.Comparison with the newly referred algorithm
 Due to some methods have no open-source code, it is hard to republicat and are marked with the marker *.
