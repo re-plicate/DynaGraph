@@ -51,7 +51,7 @@ Worth mentioning, LSTF-LINEAR is a linear model proposed by [AAAI2023] "Are Tran
 
 <p align="center">Results on TAXIBJ dataset</p>
   
- Figure a: One epoch training time results 
+ Figure a: One epoch training time. 
 
 Figure b: Total training time results. We set the bacthsize of each model as 8 and record the time cost for final convergence. We define the final convergence of each model as that the accuracy is no longer improved in the next 10 epochs of learning, then we record the time cost between the training start and the best accuracy emerges as the total training time.
 
