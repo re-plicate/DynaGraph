@@ -5,7 +5,9 @@ test.py is for evaluating the DynaGraph.
 ## 1.dataset
 This project includes 2 widely used datasets PEMS04 and PEMS08 for reproducing the results.
 ## 2.Comparison with the newly referred algorithm
-the marker * represents the result is not fiiled by now but will be update continuously updated
+Due to some methods have no open-source code, it is hard to republicat and are marked with the marker *.
+
+*represents the result is not fiiled by now but will be update continuously updated
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab1.png)
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab2.png)
 ## 3.Time cost on TAXIBJ dataset
