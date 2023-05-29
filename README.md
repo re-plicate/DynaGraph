@@ -15,7 +15,7 @@ The results show in the Table 1 demonstrate the comparable performance of DynaGr
 
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab2.png)
 
-The results in Table 2 compare DynaGraph with all the open-source baselines. It is surprising that DynaGraph achieve SOTA in both two datasets. 
+The results in Table 2 compare DynaGraph with all the open-source baselines. It is surprising that DynaGraph achieve SOTA in both two datasets. STAWnet shows the closest performance of DynaGraph, which has some similar mechanism with DynaGraph.
 ## 3.Time cost on TAXIBJ dataset
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig1.png)
 
