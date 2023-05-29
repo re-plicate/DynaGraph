@@ -38,7 +38,7 @@ After chosen the perform better baselines, we will added them in our scalability
 
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab1.png)
 
-The results show in the Table 1 demonstrate the comparable performance of DynaGraph. DynaGraph outperforms the baselines except for the Detectornet. However, this baseline has no open-source code and we refer the results from the initial paper.
+The results shown in Table 1 demonstrate the comparable performance of DynaGraph. DynaGraph outperforms the baselines except for the Detectornet. However, this baseline has no open-source code and we refer to the results from the initial paper. Due to the GMSDR, ST-GDN, and DGCRN having no easily open-source code to implement, to fairness, we temporarily fill in no results on these blanks.
 
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab2.png)
 
