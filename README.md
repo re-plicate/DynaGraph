@@ -59,3 +59,6 @@ Figure c: Prediction latency. We start timing at the beginning of the data proce
 
 ## 4.Preliminary results of Q-Traffic
 we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic dataset. However, this evaluation needs some time and more computional resource to produce the performance results of DynaGraph or other baselines. Here, we successfully run our model on Q-traffic dataset and what do we need is just time to produce the results. Here we present the recorded results which will be continuously updated.
+![image](https://github.com/re-plicate/DynaGraph/assets/130746797/fb48a61f-d801-4941-8cb9-0f6d383419c8)
+Figure shows the one epoch training time cost and total training time cost among 10%~35% scalability. The results reveal the linear growth of time cost on the larger-size dataset (~15k road segments and ~45k data channels), which is acceptable. Overall scalability results on this dataset will be updated continuously.
+
