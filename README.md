@@ -7,7 +7,7 @@ test.py is for evaluating the DynaGraph.
 ## 1.dataset
 This project includes 3 widely used datasets PeMS04, PeMS08, and a new added large-size dataset Q-Traffic for reproducing the results. Regarding the Q-Traffic dataset, it consists of three sub-datasets: query sub-dataset, traffic speed sub-dataset and road network sub-dataset. We conducted experiments on the traffic speed sub-dataset.
 
-### Traffic Speed Sub-dataset
+### Traffic Speed Sub-dataset on Q-Traffic dataset
 This sub-dataset was collected in Beijing, China between April 1, 2017 and May 31, 2017, from the [Baidu Map](https://map.baidu.com). This sub-dataset contains 15,073 road segments covering approximately 738.91 km. Figure 1 shows the spatial distribution of these road segments, respectively.
 <div align=center>
 <img src="https://github.com/JingqingZ/BaiduTraffic/blob/master/fig/beijing_road_seg_compressed.png"/>
@@ -51,4 +51,5 @@ Figure 1: One epoch training time results
 ![image](https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig2.png)
 
 Figure 2: Total training time results. We set the bacthsize of each model as 8 and record the time cost for final convergence. We define the final convergence of each model as that the accuracy is no longer improved in the next 10 epochs of learning, then we record the time cost between the training start and the best accuracy emerges as the total training time.
-## 4.New added large-size dataset
+## 4.Preliminary results of Q-Traffic
+we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic dataset. However, this evaluation needs some time and more computional resource to produce the performance results of DynaGraph or other baselines. Here, we successfully run our model on Q-traffic dataset and what do we need is just time to produce the results. Here we present the recorded results which will be continuously updated.
