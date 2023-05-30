@@ -46,7 +46,8 @@ Worth mentioning, LSTF-LINEAR is a linear model proposed by [AAAI2023] "Are Tran
 
 
 ## 3.Time cost on TAXIBJ dataset
-<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/c3fa81d2-c3c0-408a-b251-4f6a8ce4f1e7">
+<!-- <img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/c3fa81d2-c3c0-408a-b251-4f6a8ce4f1e7"> -->
+![image](https://github.com/re-plicate/DynaGraph/assets/130746797/db16e993-2c80-407c-92a9-c2db4be5aa42)
 
 <p align="center">Results on TAXIBJ dataset</p>
   
