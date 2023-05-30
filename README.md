@@ -57,8 +57,9 @@ Figure c: Prediction latency. We start timing at the beginning of the data proce
 ## 4.Preliminary results of Q-Traffic
 we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic dataset. However, this evaluation needs some time and more computional resource to produce the performance results of DynaGraph or other baselines. Here, we successfully run our model on Q-traffic dataset and what do we need is just time to produce the results. Here we present the recorded results which will be continuously updated.
 
-![image](https://github.com/re-plicate/DynaGraph/assets/130746797/2cdccd09-2034-41ac-97cc-3652d4710ac4)
-<p align="center">Results on TAXIBJ dataset</p>
+<!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/f9a7768f-e4e5-4f2f-92b9-309b3a3b927a) -->
+<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/f9a7768f-e4e5-4f2f-92b9-309b3a3b927a">
+<p align="center">Results on Q-Traffic dataset</p>
 
 We compared DynaGraph with STAWnet and DGCRN, the results show that DynaGraph has a more stable accuracy with the increasing scalability.
 
