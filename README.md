@@ -54,7 +54,7 @@ Figure b: Total training time results. We set the bacthsize of each model as 8 a
 
 Figure c: Prediction latency. We start timing at the beginning of the data processing and stop timing when the entire test data set is predicted. Our DynaGraph has a multi-scale temporal features fusion module which cost more time than other methods in the data processing procedure. However, the overall prediction latency is acceptable and its growth tendency is smoother.
 
-## 4.Preliminary results of Q-Traffic
+## 4.Preliminary results of Q-Traffic dataset
 we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic dataset. However, this evaluation needs some time and more computional resource to produce the performance results of DynaGraph or other baselines. Here, we successfully run our model on Q-traffic dataset and what do we need is just time to produce the results. Here we present the recorded results which will be continuously updated.
 
 <!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/f9a7768f-e4e5-4f2f-92b9-309b3a3b927a) -->
