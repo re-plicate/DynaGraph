@@ -64,7 +64,7 @@ we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic da
 
 <p align="center">Results on Q-Traffic dataset</p>
 
-We compared DynaGraph with STAWnet and DGCRN, the results show that DynaGraph has a more stable accuracy with the increasing scalability.
+We compared DynaGraph with STAWnet and DGCRN, the results show that DynaGraph has a more stable accuracy with the increasing scalability. DynaGraph shows a better performance on longer time prediction.
 
 
 <!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/3152dd45-9fc8-441f-ba68-6891667dd83a) -->
