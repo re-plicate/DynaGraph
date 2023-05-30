@@ -60,6 +60,7 @@ we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic da
 <img width="666" alt="1685359665678" src="https://github.com/re-plicate/DynaGraph/assets/130746797/45da25a8-9a6e-4ea5-8c96-2f4300396658">
 
 Figure shows the one epoch training time cost and total training time cost among 10%~35% scalability. The results reveal the linear growth of time cost on the larger-size dataset (~15k road segments and ~45k data channels), which is acceptable. Overall scalability results on this dataset will be updated continuously.
+![image](https://github.com/re-plicate/DynaGraph/assets/130746797/94690fd0-596b-4461-8da7-39050115d18a)
 
 
 
