@@ -4,7 +4,7 @@
 user could run main.py to easily start the training.
 test.py is for evaluating the DynaGraph.
 
-## 1.dataset
+## 1.Dataset
 This project includes 3 widely used datasets PeMS04, PeMS08, and a new added large-size dataset Q-Traffic for reproducing the results. Regarding the Q-Traffic dataset, it consists of three sub-datasets: query sub-dataset, traffic speed sub-dataset and road network sub-dataset. We conducted experiments on the traffic speed sub-dataset.
 
 ### Traffic Speed Sub-dataset on Q-Traffic dataset
@@ -66,7 +66,7 @@ We compared DynaGraph with STAWnet and DGCRN, the results show that DynaGraph ha
 
 <!-- <img width="666" alt="1685359665678" src="https://github.com/re-plicate/DynaGraph/assets/130746797/45da25a8-9a6e-4ea5-8c96-2f4300396658"> -->
 
-<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/959d5a1d-162f-419e-baa7-1e959c0d886d">
+<img width="587" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/959d5a1d-162f-419e-baa7-1e959c0d886d">
 
 <p align="center">Results on Q-Traffic dataset</p>
 
