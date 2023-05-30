@@ -46,7 +46,7 @@ Worth mentioning, LSTF-LINEAR is a linear model proposed by [AAAI2023] "Are Tran
 
 
 ## 3.Time cost on TAXIBJ dataset
-<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/main/Fig/Fig123.jpg">
+<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Fig123.jpg">
 
 <p align="center">Results on TAXIBJ dataset</p>
   
@@ -60,7 +60,7 @@ Figure c: Prediction latency. We start timing at the beginning of the data proce
 we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic dataset. However, this evaluation needs some time and more computional resource to produce the performance results of DynaGraph or other baselines. Here, we successfully run our model on Q-traffic dataset and what do we need is just time to produce the results. Here we present the recorded results which will be continuously updated.
 
 <!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/f9a7768f-e4e5-4f2f-92b9-309b3a3b927a) -->
-<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/main/Fig/Tab3.png">
+<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/Tab3.png">
 
 <p align="center">Results on Q-Traffic dataset</p>
 
