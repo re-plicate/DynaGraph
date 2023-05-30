@@ -60,18 +60,19 @@ Figure c: Prediction latency. We start timing at the beginning of the data proce
 we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic dataset. However, this evaluation needs some time and more computional resource to produce the performance results of DynaGraph or other baselines. Here, we successfully run our model on Q-traffic dataset and what do we need is just time to produce the results. Here we present the recorded results which will be continuously updated.
 
 <!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/f9a7768f-e4e5-4f2f-92b9-309b3a3b927a) -->
-<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/f9a7768f-e4e5-4f2f-92b9-309b3a3b927a">
+<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/b25be13e-2ace-492e-8806-6f4f84e1abbc">
 
 <p align="center">Results on Q-Traffic dataset</p>
 
 We compared DynaGraph with STAWnet and DGCRN, the results show that DynaGraph has a more stable accuracy with the increasing scalability.
 
-<!-- <img width="666" alt="1685359665678" src="https://github.com/re-plicate/DynaGraph/assets/130746797/45da25a8-9a6e-4ea5-8c96-2f4300396658"> -->
-<!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/b25be13e-2ace-492e-8806-6f4f84e1abbc) -->
 
-<img width="587" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/b25be13e-2ace-492e-8806-6f4f84e1abbc">
+<!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/3152dd45-9fc8-441f-ba68-6891667dd83a) -->
 
-<p align="center">Results on Q-Traffic dataset</p>
+
+<img width="587" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/3152dd45-9fc8-441f-ba68-6891667dd83a">
+
+<p align="center">Total training time</p>
 
 Figure shows the one epoch training time cost and total training time cost among 10%~35% scalability. The results reveal the linear growth of time cost on the larger-size dataset (~15k road segments and ~45k data channels), which is acceptable. Overall scalability results on this dataset will be updated continuously.
 
