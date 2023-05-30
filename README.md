@@ -70,7 +70,7 @@ We compared DynaGraph with STAWnet and DGCRN, the results show that DynaGraph ha
 <!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/3152dd45-9fc8-441f-ba68-6891667dd83a) -->
 
 
-<img width="587" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/3152dd45-9fc8-441f-ba68-6891667dd83a">
+<img width="487" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/3152dd45-9fc8-441f-ba68-6891667dd83a">
 
 <p align="center">Total training time</p>
 
