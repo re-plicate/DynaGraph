@@ -30,7 +30,7 @@ There are some traffic speed samples as follows:
 ```
 
 ## 2.Preliminary Comparison with the newly referred algorithms
-Due to some methods have no open-source code, it is hard to republicat and are marked with the marker *.
+Due to some methods have no open-source code, it is hard to reproduce and are marked with the marker *.
 
 *represents the result is not fiiled by now but will be continuously updated
 
