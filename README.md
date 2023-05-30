@@ -59,13 +59,16 @@ we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic da
 
 <!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/f9a7768f-e4e5-4f2f-92b9-309b3a3b927a) -->
 <img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/f9a7768f-e4e5-4f2f-92b9-309b3a3b927a">
+
 <p align="center">Results on Q-Traffic dataset</p>
 
 We compared DynaGraph with STAWnet and DGCRN, the results show that DynaGraph has a more stable accuracy with the increasing scalability.
 
 <!-- <img width="666" alt="1685359665678" src="https://github.com/re-plicate/DynaGraph/assets/130746797/45da25a8-9a6e-4ea5-8c96-2f4300396658"> -->
-![image](https://github.com/re-plicate/DynaGraph/assets/130746797/959d5a1d-162f-419e-baa7-1e959c0d886d)
 
+<img width="887" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/assets/130746797/959d5a1d-162f-419e-baa7-1e959c0d886d">
+
+<p align="center">Results on Q-Traffic dataset</p>
 
 Figure shows the one epoch training time cost and total training time cost among 10%~35% scalability. The results reveal the linear growth of time cost on the larger-size dataset (~15k road segments and ~45k data channels), which is acceptable. Overall scalability results on this dataset will be updated continuously.
 
