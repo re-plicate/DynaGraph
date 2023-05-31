@@ -67,12 +67,10 @@ we have conducted a preliminary scaled evaluation with DynaGraph on Q-traffic da
 We compared DynaGraph with STAWnet and DGCRN, the results show that DynaGraph has a more stable accuracy with the increasing scalability. DynaGraph shows a better performance on longer time prediction.
 
 
-<!-- ![image](https://github.com/re-plicate/DynaGraph/assets/130746797/3152dd45-9fc8-441f-ba68-6891667dd83a) -->
-
 
 <img width="587" alt="1685357763960" src="https://github.com/re-plicate/DynaGraph/blob/main/Fig/qt_time.jpg">
 
-<p align="center">Total training time</p>
+<p align="center">Total training time on Q-Traffic</p>
 
 Figure shows the one epoch training time cost and total training time cost among 10%~35% scalability. The results reveal the linear growth of time cost on the larger-size dataset (~15k road segments and ~45k data channels), which is acceptable. Overall scalability results on this dataset will be updated continuously.
 
