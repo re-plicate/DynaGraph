@@ -1,5 +1,5 @@
 # DynaGraph
-
+DMFT model as the foundation of Dynagraph is provided in this project.
 ## model run
 user could run main.py to easily start the training.
 test.py is for evaluating the DynaGraph.
